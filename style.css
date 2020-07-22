@@ -1,0 +1,18 @@
+/* CHAPTER 49-52 */
+table tr:not(:first-child){
+    cursor: pointer;transition: all .30s ease-in-out;
+}
+table tr:not(:first-child):hover{background-color: #000000;}
+
+/* CHAPTER 52-57 */
+
+.img{
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+.bigImage{
+  width: 700px;
+  height: 400px;
+}
+

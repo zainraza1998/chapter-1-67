@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Alerts</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <!-- ASSIGNMENT 17-20 -->
+
+   
+    </select>
+    <script>
+
+
+ var multiA = [[],[]];
+
+
+ var multi_Arr = [
+     [0,1,2,3],
+     [1,0,1,2],
+     [2,1,0,1]
+ ];
+ for(var i=0;i<3;i++){
+     for(j=0;j<4;j++){
+     document.write(multi_Arr[i][j]+" ");
+ }
+ document.write("<br>");
+ }
+
+
+ for(var k=1;k<=10;k++){
+     document.write(k+"<br>");
+ }
+
+
+ 
+ var table_NO=+prompt("Enter a number to show its multiplication number.");
+ var table_length=+prompt("Enter length of multiplication table.");
+ for(var i=1;i<=table_length;i++){
+     document.write(table_NO + " * "+ i + " = " + (table_NO*i) + "<br>");
+ }
+
+
+ 
+ var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+ for(var z=0;z<=fruits.length;z++){
+     document.write("Elements at index "+z+" is "+fruits[z]+"<br>");
+ }
+
+
+
+ document.write("<h3>Counting</h3>"+"<br>");
+ for(var y=1;y<=15;y++){
+     document.write(y+ ",");
+ }
+ document.write("<br>");
+
+ document.write("<h3>Reverse Counting</h3>"+"<br>");
+ for(var y=10;y>0;y--){
+     document.write(y+",");
+ }
+ document.write("<br>");
+
+ document.write("<h3>Even</h3>"+"<br>");
+ for(var y=0; y<=20;y=y+2){
+     document.write(y+",");
+ }
+ document.write("<br>");
+
+ document.write("<h3>Odd</h3>"+"<br>");
+ for(var y=1; y<=20;y=y+2){
+     document.write(y+",");
+ }
+ document.write("<br>");
+
+ document.write("<h3>Series</h3>"+"<br>");
+ for(var y=2; y<=20;y=y+2){
+     document.write(y+"k,");
+ }
+ document.write("<br>");
+
+
+ 
+ var A=["cake","apple pie","cookie","chips","patties"];
+ var search=prompt("Welcome to ABC Bakery, What do you want to order sir/,ma'am?");
+ for(var n=0;n<=A.length;n++){
+     if(search===A[n]){
+     document.write(search+" is <b>available</b> at index "+ n +" in our bakery"+"<br>");
+     break;
+    }
+ else{
+     document.write("We are sorry. "+ search + " is <b>not available</b> in our bakery"+"<br>");
+ }
+ }
+
+
+ var arry=[24,53,78,91,12];
+ document.write("Array items: "+arry+"<br>");
+ var largest = arry[0];
+ for(var i = 0; i < arry.length; i++){
+ if(arry[i] > largest){
+     largest=arry[i];
+ }
+ }
+ document.write("The largest number is "+largest+"<br>");
+
+
+ var arry=[24,53,78,91,12];
+ document.write("Array items: "+arry+"<br>");
+ var smallest = arry[0];
+ for(var i = 0; i < arry.length; i++){
+ if(arry[i] < largest){
+     smallest=arry[i];
+ }
+ }
+ document.write("The smallest number is "+smallest+"<br>");
+
+
+ var tab=5;
+ for(i=1;i<=20;i++){
+     document.write((i*tab) + " ,");
+ }
+ document.write("<br>");
+
+
+
+    </script>
+</body>
+</html>
